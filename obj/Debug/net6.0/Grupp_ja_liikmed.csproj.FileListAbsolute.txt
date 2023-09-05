@@ -1,0 +1,15 @@
+C:\Users\Matti\source\repos\Grupp_ja_liikmed-master\bin\Debug\net6.0\Grupp_ja_liikmed.exe
+C:\Users\Matti\source\repos\Grupp_ja_liikmed-master\bin\Debug\net6.0\Grupp_ja_liikmed.deps.json
+C:\Users\Matti\source\repos\Grupp_ja_liikmed-master\bin\Debug\net6.0\Grupp_ja_liikmed.runtimeconfig.json
+C:\Users\Matti\source\repos\Grupp_ja_liikmed-master\bin\Debug\net6.0\Grupp_ja_liikmed.dll
+C:\Users\Matti\source\repos\Grupp_ja_liikmed-master\bin\Debug\net6.0\Grupp_ja_liikmed.pdb
+C:\Users\Matti\source\repos\Grupp_ja_liikmed-master\obj\Debug\net6.0\Grupp_ja_liikmed.csproj.AssemblyReference.cache
+C:\Users\Matti\source\repos\Grupp_ja_liikmed-master\obj\Debug\net6.0\Grupp_ja_liikmed.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Matti\source\repos\Grupp_ja_liikmed-master\obj\Debug\net6.0\Grupp_ja_liikmed.AssemblyInfoInputs.cache
+C:\Users\Matti\source\repos\Grupp_ja_liikmed-master\obj\Debug\net6.0\Grupp_ja_liikmed.AssemblyInfo.cs
+C:\Users\Matti\source\repos\Grupp_ja_liikmed-master\obj\Debug\net6.0\Grupp_ja_liikmed.csproj.CoreCompileInputs.cache
+C:\Users\Matti\source\repos\Grupp_ja_liikmed-master\obj\Debug\net6.0\Grupp_ja_liikmed.dll
+C:\Users\Matti\source\repos\Grupp_ja_liikmed-master\obj\Debug\net6.0\refint\Grupp_ja_liikmed.dll
+C:\Users\Matti\source\repos\Grupp_ja_liikmed-master\obj\Debug\net6.0\Grupp_ja_liikmed.pdb
+C:\Users\Matti\source\repos\Grupp_ja_liikmed-master\obj\Debug\net6.0\Grupp_ja_liikmed.genruntimeconfig.cache
+C:\Users\Matti\source\repos\Grupp_ja_liikmed-master\obj\Debug\net6.0\ref\Grupp_ja_liikmed.dll
