@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace Grupp_ja_liikmed
 {
-    public class Metood
+    public class Liik
     {
         private readonly string _nimi;
         private readonly string _perenimi;        
         private readonly DateTime _sündimispäev;
         private double _keskhinne;
 
-        public Metood(string nimi, string perenimi, DateTime sündimispäev, double keskhinne)
+        public Liik(string nimi, string perenimi, DateTime sündimispäev, double keskhinne)
         {
             this._nimi = nimi;
             this._perenimi = perenimi;
@@ -26,10 +26,10 @@ namespace Grupp_ja_liikmed
         public string Nimi { get => _nimi; }
         public string Perenimi { get => _perenimi; }
                
-        public static List<Metood> GenerateRandomSisu()
+        public static List<Liik> GenerateRandomSisu()
         {
             Random rand = new Random();
-            List<Metood> Grupp = new List<Metood>();
+            List<Liik> Grupp = new List<Liik>();
             int paev;
 
             int gruppsuurus = rand.Next(20, 145); 
@@ -70,7 +70,7 @@ namespace Grupp_ja_liikmed
                 int intValue = rand.Next(300, 501); 
                 double keskH = intValue / 100.0; 
 
-                Metood liik = new Metood(nimi, perenimi, synnipaev, keskH);
+                Liik liik = new Liik(nimi, perenimi, synnipaev, keskH);
                 Console.WriteLine(liik.Nimi);
                 Console.WriteLine(liik.Perenimi);
                 Console.WriteLine(liik.Sündimispäev);
@@ -84,11 +84,11 @@ namespace Grupp_ja_liikmed
             return Grupp;
         }
 
-        public static double Vaiksemhinne(List<Metood> Grupp)
+        public static double Vaiksemhinne(List<Liik> Grupp)
         {
             double vaiksemHinne = double.MaxValue;
 
-            foreach (Metood liik in Grupp)
+            foreach (Liik liik in Grupp)
             {
                 if (liik.Keskhinne < vaiksemHinne)
                 {
@@ -99,11 +99,11 @@ namespace Grupp_ja_liikmed
             return vaiksemHinne;
         }
 
-        public static double SuuremHinne(List<Metood> Grupp)
+        public static double SuuremHinne(List<Liik> Grupp)
         {
             double suuremHinne = double.MinValue;
 
-            foreach (Metood liik in Grupp)
+            foreach (Liik liik in Grupp)
             {
                 if (liik.Keskhinne > suuremHinne)
                 {
@@ -146,7 +146,7 @@ namespace Grupp_ja_liikmed
 
         public static void RunGroupOperations(int maxMembers)
         {
-            List<Metood> members = GenerateRandomSisu();
+            List<Liik> members = GenerateRandomSisu();
             Group group = new Group(maxMembers);
 
             foreach (var member in members)
@@ -177,7 +177,7 @@ namespace Grupp_ja_liikmed
             NäitaNimijaHinne(members, suuremHinne, "Inimesed kõrgema keskhinnega:");
         }
 
-        private static void NäitaNimijaHinne(List<Metood> members, double mark, string message)
+        private static void NäitaNimijaHinne(List<Liik> members, double mark, string message)
         {
             Console.WriteLine(message);
 
